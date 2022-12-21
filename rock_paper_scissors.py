@@ -45,6 +45,7 @@ print (f"You chose {your_choice} and the computer chose {computer_choice}")
 if your_input >=3:
     print("You entered an invalid number")
 
+
 # logic to tell if you win or lose 
 elif your_choice == rock and computer_choice == scissors:
     print("You win")
